@@ -10,11 +10,15 @@ class ChirpController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    // public function index()
+    // {
+    //     //
+    // }
+    public function index(): Response 
     {
         //
+        return response('Hello, World!');
     }
-
     /**
      * Show the form for creating a new resource.
      */
